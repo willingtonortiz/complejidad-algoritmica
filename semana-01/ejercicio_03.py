@@ -1,6 +1,7 @@
 
 def read_matrix():
-	matrix = [[int(x) for x in input().split()] for y in range(9)]
+	sudoku_length = 9
+	matrix = [[int(x) for x in input().split()] for y in range(sudoku_length)]
 	return matrix
 
 
@@ -47,11 +48,8 @@ def run():
 		print("El sudoku ingresado es incorrecto")
 
 
-
 if __name__ == "__main__":
 	run()
-
-
 
 
 # 7 4 3 9 5 1 6 8 2
