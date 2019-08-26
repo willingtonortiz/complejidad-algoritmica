@@ -83,7 +83,7 @@ def run():
 
 
 def run_all_solutions():
-	size = 12
+	size = 5
 	board = [[-1 for i in range(size)] for j in range(size)]
 
 	find_all_solutions(board, 0, 0)
